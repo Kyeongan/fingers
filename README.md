@@ -1,32 +1,31 @@
 # fingers
 
 #### Python version check
-```
-$python -V
+```bash
+python -V
 ```
 
 #### Install python3 (https://www.python.org/downloads/)
-```
-$brew install python3
+```bash
+brew install python3
 ```
 
 #### Virtualenv
-```
-$mkvirtualenv {django_project} -p python3
+```bash
+mkvirtualenv {django_project} -p python3
 ```
 
 #### Check pip pacakges
-```
-$pip freeze
+```bash
+pip freeze
 ```
 
 #### Install packages
-```
-$pip install django
-$...
+```bash
+pip install -r pip_requirments.txt
 ```
 
 #### Create Django Project
-```
-$django-admin startproject {project_name}
+```bash
+django-admin startproject {project_name}
 ```
