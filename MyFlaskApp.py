@@ -1,9 +1,11 @@
 from flask import Flask, render_template
 from data import Articles
+from data import Projects
 
 app = Flask(__name__)
 
 Articles = Articles()
+Projects = Projects()
 
 @app.route('/')
 def hello_world():
@@ -25,6 +27,9 @@ def articles():
 def article(id):
     return render_template('article.html', id=id)
 
+@app.route('/projects')
+def projects():
+    return render_template('projects.html', projects = Projects)
 
 if __name__ == '__main__':
     app.run(debug=True)
