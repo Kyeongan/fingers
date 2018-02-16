@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 from data import Articles
 from data import Projects
+from dbconnect import *
 
 app = Flask(__name__)
 
@@ -31,5 +32,19 @@ def article(id):
 def projects():
     return render_template('projects.html', projects = Projects)
 
+
+def main():
+    database = "./racers.sqlite3.db"
+
+    # create a database connection
+    conn = create_connection(database)
+    with conn:
+        # print("1. Query task by priority:")?
+        # select_task_by_priority(conn, 10)
+
+        print("2. Query all tasks")
+        select_all_tasks(conn)
+
 if __name__ == '__main__':
     app.run(debug=True)
+    main()
