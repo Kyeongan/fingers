@@ -245,5 +245,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# rethinkdb_data
+.rethinkdb_data/log_file
+
 
 # End of https://www.gitignore.io/api/git,node,bower,django,python,pycharm
