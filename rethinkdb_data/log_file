@@ -96,3 +96,22 @@
 2018-02-19T23:02:56.975144000 2.831391s notice: All client connections closed.
 2018-02-19T23:02:56.975148000 2.831395s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2018-02-19T23:02:56.977465000 2.833713s notice: Storage engine shut down.
+2018-02-19T23:03:54.858801000 0.008680s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-02-19T23:03:54.862636000 0.012507s notice: Running on Darwin 17.4.0 x86_64
+2018-02-19T23:03:54.862718000 0.012588s notice: Loading data from directory /Users/karlkwon/git/fingers/rethinkdb_data
+2018-02-19T23:03:54.899810000 0.049684s info: Automatically using cache size of 13647 MB
+2018-02-19T23:03:54.900416000 0.050290s notice: Listening for intracluster connections on port 29015
+2018-02-19T23:03:54.915421000 0.065296s notice: Listening for client driver connections on port 28015
+2018-02-19T23:03:54.915564000 0.065439s notice: Listening for administrative HTTP connections on port 8080
+2018-02-19T23:03:54.915566000 0.065441s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-02-19T23:03:54.915568000 0.065443s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-02-19T23:03:54.915570000 0.065445s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-02-19T23:03:54.915629000 0.065504s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-19T23:03:54.915631000 0.065506s notice: Server ready, "Karls_iMac_T_mobile_com_k0i" 8955e8eb-d590-47ca-851f-95b676831f2f
+2018-02-19T23:03:56.051110000 1.201094s info: Table 23737490-2d60-4aa8-b6be-772dd13b1db9: Starting a new Raft election for term 6.
+2018-02-19T23:03:56.081400000 1.231387s info: Table 23737490-2d60-4aa8-b6be-772dd13b1db9: This server is Raft leader for term 6. Latest log index is 15.
+2018-02-19T23:03:56.273964000 1.423969s notice: Server got SIGINT from pid 8893, uid 501; shutting down...
+2018-02-19T23:03:56.274063000 1.424068s notice: Shutting down client connections...
+2018-02-19T23:03:56.274121000 1.424126s notice: All client connections closed.
+2018-02-19T23:03:56.274126000 1.424130s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-19T23:03:56.276282000 1.426286s notice: Storage engine shut down.
