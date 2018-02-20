@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.0.0"
+    "bootstrap": "^4.0.0",
+    "rethinkdb": "^2.3.3"
   },
   "devDependencies": {},
   "scripts": {

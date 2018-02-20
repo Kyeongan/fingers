@@ -3,6 +3,8 @@ from data import Articles
 from data import Projects
 from dbconnect import *
 
+import rethinkdb as r
+
 app = Flask(__name__)
 
 Articles = Articles()
@@ -37,13 +39,20 @@ def main():
     database = "./racers.sqlite3.db"
 
     # create a database connection
-    conn = create_connection(database)
-    with conn:
+    # conn = create_connection(database)
+    # print("Query all tasks")
+    # with conn:
         # print("1. Query task by priority:")?
         # select_task_by_priority(conn, 10)
 
-        print("2. Query all tasks")
-        select_all_tasks(conn)
+
+        # select_all_tasks(conn)
+
+
+    r.connect('localhost', 28015).repl()
+    cursor = r.table('tv_shows').filter(r.row('episodes').gt(100))
+    for document in cursor:
+        print(document)
 
 if __name__ == '__main__':
     app.run(debug=True)
