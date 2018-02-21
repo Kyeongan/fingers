@@ -59,6 +59,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+rethinkdb_data/
 
 # Typescript v1 declaration files
 typings/
@@ -243,10 +244,6 @@ venv.bak/
 /site
 
 # mypy
-.mypy_cache/
-
-# rethinkdb_data
-.rethinkdb_data/
 
 
 # End of https://www.gitignore.io/api/git,node,bower,django,python,pycharm
