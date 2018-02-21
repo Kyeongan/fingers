@@ -1,0 +1,14 @@
+2018-02-21T17:21:00.005845000 0.015715s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-02-21T17:21:00.022565000 0.032432s notice: Running on Darwin 17.4.0 x86_64
+2018-02-21T17:21:00.022630000 0.032495s notice: Loading data from directory /Users/karlkwon/git/fingers/rethinkdb_data
+2018-02-21T17:21:00.073365000 0.083229s info: Automatically using cache size of 238 MB
+2018-02-21T17:21:00.074397000 0.084261s notice: Listening for intracluster connections on port 29015
+2018-02-21T17:21:00.096141000 0.106004s notice: Listening for client driver connections on port 28015
+2018-02-21T17:21:00.096323000 0.106186s notice: Listening for administrative HTTP connections on port 8080
+2018-02-21T17:21:00.096328000 0.106190s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-02-21T17:21:00.096427000 0.106289s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-02-21T17:21:00.096430000 0.106292s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-02-21T17:21:00.096443000 0.106305s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-21T17:21:00.096445000 0.106308s notice: Server ready, "Karls_iMac_T_mobile_com_x7u" 07da3b14-61d4-458c-8937-a5c810f57cab
+2018-02-21T17:21:01.154735000 1.164569s info: Table 23f0012e-db74-4baf-b7f5-b7bb6139d700: Starting a new Raft election for term 3.
+2018-02-21T17:21:01.184152000 1.193986s info: Table 23f0012e-db74-4baf-b7f5-b7bb6139d700: This server is Raft leader for term 3. Latest log index is 6.
