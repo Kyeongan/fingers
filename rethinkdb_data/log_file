@@ -18,3 +18,38 @@
 2018-02-19T23:07:10.585037000 4.947131s notice: All client connections closed.
 2018-02-19T23:07:10.585042000 4.947137s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2018-02-19T23:07:10.585475000 4.947569s notice: Storage engine shut down.
+2018-02-20T11:35:19.508546000 0.060955s notice: Recursively removing directory /Users/karlkwon/git/fingers/rethinkdb_data/tmp
+2018-02-20T11:35:19.511697000 0.064111s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-02-20T11:35:19.521976000 0.074385s notice: Running on Darwin 17.4.0 x86_64
+2018-02-20T11:35:19.522062000 0.074470s notice: Loading data from directory /Users/karlkwon/git/fingers/rethinkdb_data
+2018-02-20T11:35:19.571045000 0.123451s info: Automatically using cache size of 252 MB
+2018-02-20T11:35:19.571935000 0.124342s notice: Listening for intracluster connections on port 29015
+2018-02-20T11:35:19.573945000 0.126352s notice: Listening for client driver connections on port 28015
+2018-02-20T11:35:19.574080000 0.126486s notice: Listening for administrative HTTP connections on port 8080
+2018-02-20T11:35:19.574083000 0.126489s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-02-20T11:35:19.574090000 0.126496s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-02-20T11:35:19.574092000 0.126498s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-02-20T11:35:19.574098000 0.126504s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-20T11:35:19.574105000 0.126511s notice: Server ready, "Karls_iMac_T_mobile_com_x7u" 07da3b14-61d4-458c-8937-a5c810f57cab
+2018-02-20T11:42:15.586499000 416.126426s info: Table 23f0012e-db74-4baf-b7f5-b7bb6139d700: Starting a new Raft election for term 1.
+2018-02-20T11:42:15.586896000 416.126822s info: Table 23f0012e-db74-4baf-b7f5-b7bb6139d700: Added replica on this server.
+2018-02-20T11:42:15.615739000 416.155665s info: Table 23f0012e-db74-4baf-b7f5-b7bb6139d700: This server is Raft leader for term 1. Latest log index is 0.
+2018-02-20T16:01:50.337067000 9657.684105s notice: Server got SIGINT from pid 34398, uid 501; shutting down...
+2018-02-20T16:01:50.337287000 9657.684325s notice: Shutting down client connections...
+2018-02-20T16:01:50.337577000 9657.684615s notice: All client connections closed.
+2018-02-20T16:01:50.337591000 9657.684629s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-02-20T16:01:50.343809000 9657.690847s notice: Storage engine shut down.
+2018-02-21T16:51:02.134623000 0.071652s notice: Running rethinkdb 2.3.6 (CLANG 9.0.0 (clang-900.0.37))...
+2018-02-21T16:51:02.143653000 0.080675s notice: Running on Darwin 17.4.0 x86_64
+2018-02-21T16:51:02.143764000 0.080786s notice: Loading data from directory /Users/karlkwon/git/fingers/rethinkdb_data
+2018-02-21T16:51:02.388594000 0.325613s info: Automatically using cache size of 423 MB
+2018-02-21T16:51:02.390966000 0.327984s notice: Listening for intracluster connections on port 29015
+2018-02-21T16:51:02.418976000 0.355993s notice: Listening for client driver connections on port 28015
+2018-02-21T16:51:02.419253000 0.356270s notice: Listening for administrative HTTP connections on port 8080
+2018-02-21T16:51:02.419260000 0.356277s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2018-02-21T16:51:02.419265000 0.356282s notice: Listening on driver addresses: 127.0.0.1, ::1
+2018-02-21T16:51:02.419270000 0.356287s notice: Listening on http addresses: 127.0.0.1, ::1
+2018-02-21T16:51:02.419296000 0.356313s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-02-21T16:51:02.419301000 0.356318s notice: Server ready, "Karls_iMac_T_mobile_com_x7u" 07da3b14-61d4-458c-8937-a5c810f57cab
+2018-02-21T16:51:04.143837000 2.080832s info: Table 23f0012e-db74-4baf-b7f5-b7bb6139d700: Starting a new Raft election for term 2.
+2018-02-21T16:51:04.523280000 2.460271s info: Table 23f0012e-db74-4baf-b7f5-b7bb6139d700: This server is Raft leader for term 2. Latest log index is 3.

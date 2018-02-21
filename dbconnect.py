@@ -44,7 +44,7 @@ def select_all_tasks(conn):
     rows = cur.fetchall()
 
     for row in rows:
-        print(row['hometown'])
+        print(row)
 
     # return
 
